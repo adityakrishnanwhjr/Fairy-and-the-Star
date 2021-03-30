@@ -59,10 +59,10 @@ drawSprites();
 function keyPressed() {
 	//write code here
 	if(keyCode===LEFT_ARROW){
-		fairy.x=fairy.x-2;
+		fairy.x=fairy.x-7;
 	}
 	if(keyCode===RIGHT_ARROW){
-		fairy.x=fairy.x+2;
+		fairy.x=fairy.x+7;
 	}
 	
 	if(keyCode===DOWN_ARROW){
